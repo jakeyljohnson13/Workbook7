@@ -65,9 +65,9 @@ SELECT DISTINCT Title
 FROM Employees;
 
 --Question 14
-SELECT *
-FROM Employees;
---Skip for now, no salaries listed
+SELECT FirstName, LastName, Salary
+FROM Employees
+WHERE Salary BETWEEN 2000 and 2500;
 
 --Question 15
 SELECT *
